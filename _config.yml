@@ -9,9 +9,9 @@ baseurl:
 # Title of the Site
 title: Nick Buckets
 # Description of the Site
-description: Author homepage
+description: Crime fiction
 # URL of Image of the Site
-site-image: /WhatATheme/assets/images/meta.jpg
+site-image: 
 # Keywords of the Site
 site-keywords: Site, Template, Theme
 # URL for the Image of custom Favicon
@@ -22,7 +22,7 @@ heroimage: https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto
 
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
-email: nick.buckets.author@gmail.com
+email: info@nickbuckets.com
 facebook_username: NBucketsAuthor
 twitter_username: NBucketsAuthor
 instagram_username: NBucketsAuthor
