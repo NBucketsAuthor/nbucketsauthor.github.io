@@ -9,7 +9,7 @@ baseurl:
 # Title of the Site
 title: Nick Buckets
 # Description of the Site
-description: Crime fiction
+description: crime fiction author
 # URL of Image of the Site
 site-image: 
 # Keywords of the Site
@@ -38,7 +38,10 @@ author-name: Nick Buckets
 # URL for the Image of the Author
 author-image: /assets/images/author_logo.jpg
 # 60 Words About the Author
-author-about: Crime fiction writer. Author of the book "Bad Seeds".
+author-about: Nick Buckets lives in Berlin with his wife.
+  When not writing crime fiction he punches numbers behind a computer screen. 
+  Bad Seed is his first full-length novel.
+
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
 author-url: https://nickbuckets.com
 

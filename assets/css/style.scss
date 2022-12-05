@@ -63,12 +63,12 @@ a.navbar-item.is-active {
 }
 .title {
     margin: auto 0.75rem!important;
-    font-family: 'Josefin', 'Montserrat';
-    font-size: xx-large;
+    font-family: 'Josefin sans', 'Montserrat';
 }
 
 .subtitle {
     letter-spacing: 0.25rem;
+    font-family: 'Montserrat', 'Josefin Sans';
 }
 
 #badseed {
@@ -90,6 +90,12 @@ a.navbar-item.is-active {
     a {
         min-width: 25vmax;
         margin: 0.5rem;
+    }
+
+    .social_media {
+        align-self: center;
+        align-content: center;
+        align-items: center;
     }
 }
 
