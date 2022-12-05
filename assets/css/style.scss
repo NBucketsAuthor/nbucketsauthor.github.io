@@ -63,9 +63,18 @@ a.navbar-item.is-active {
 }
 .title {
     margin: auto 0.75rem!important;
+    font-family: 'Josefin', 'Montserrat';
+    font-size: xx-large;
 }
+
 .subtitle {
     letter-spacing: 0.25rem;
+}
+
+#badseed {
+    .column {
+        color: white;
+    }
 }
 
 #about {
