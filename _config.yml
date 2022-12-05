@@ -2,9 +2,9 @@
 markdown: kramdown
 
 # URL of the Site
-url: ''
+url: 'https://nickbuckets.com'
 # Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
-baseurl: 
+baseurl:
 
 # Title of the Site
 title: Nick Buckets
@@ -13,7 +13,9 @@ description: crime fiction author
 # URL of Image of the Site
 site-image: 
 # Keywords of the Site
-site-keywords: Crime fiction, Writing
+site-keywords: Crime fiction, detective fiction, mystery fiction, hard boiled detective,
+  crime novels, detective novels, crime books, detective books, mystery novels, mystery books,
+  Berlin
 # URL for the Image of custom Favicon
 favicon-url: 
 
