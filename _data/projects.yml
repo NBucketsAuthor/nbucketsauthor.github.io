@@ -1,5 +1,5 @@
-- name: Bad Seed
-  image: assets/images/badseed.jpg
+- name: Berlin Seeds
+  image: assets/images/berlin_seeds.png
   link:
   description: Description of the first book here.
 # - name: Offset
