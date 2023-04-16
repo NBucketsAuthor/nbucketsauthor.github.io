@@ -25,9 +25,9 @@ heroimage: /assets/images/background_home_city.png?auto=compress&cs=tinysrgb&dpr
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
 email: info@nickbuckets.com
-facebook_username:
-twitter_username: BucketsAuthor
-instagram_username: nickbucketsauthor
+facebook_username: NBucketsAuthor
+twitter_username: NBucketsAuthor
+instagram_username: nick.buckets.author
 
 # Google Analytics
 google-analytics: G-YJ7NSN6M62
