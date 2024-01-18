@@ -21,6 +21,10 @@
                     {% endunless %}
                     <div class="is-size-1">
                         {% unless site.instagram_username ==  %}
+                        <a href="https://www.threads.net/@{{site.threads_username}}" target="_blank" class="has-text-black"><i class="fa-brands fa-threads"></i></a>
+                        {% endunless %}
+                        <!-- &nbsp; -->
+                        {% unless site.instagram_username ==  %}
                         <a href="http://www.instagram.com/{{site.instagram_username}}" target="_blank" class="has-text-black"><i class="fab fa-instagram"></i></a>
                         {% endunless %}
                         <!-- &nbsp; -->
