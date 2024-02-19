@@ -25,7 +25,7 @@ something to write down.
 
 ### Where?
 
-Rgiht here.
+Right here.
 
 ### Why?
 
