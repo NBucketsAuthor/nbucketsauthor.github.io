@@ -9,7 +9,6 @@ tags:
 - word count
 ---
 
-### What?
 Since Day 1 of my writing journey, I've been keeping track of the number of words I put down on 
 paper each day. Reading around, I quickly realized that every author has their own pace.
 Stephen King famously writes 2,500 words every single day -- no exceptions. Ernest Hemingway was 
