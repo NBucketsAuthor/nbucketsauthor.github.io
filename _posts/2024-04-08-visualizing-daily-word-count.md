@@ -63,7 +63,7 @@ explore their own statistics, learn something from the data, or just have fun pl
 The app is <a href="https://nickbuckets.shinyapps.io/word_count/">here</a>, and it looks like this:
 
 <p align="center">
-  <img src="/assets/images/blogpost_1_viz_daily_word_count.png" alt="Distribution of daily word count for Break Even" style="width:400px">
+  <img src="/assets/images/blogpost_1_viz_daily_word_count.png" alt="Interactive shiny app to visualize daily word count statistics" style="width:400px">
 </p>
 
 In case you want, you'll be able to upload your own data and visualize it, as well as change the 
