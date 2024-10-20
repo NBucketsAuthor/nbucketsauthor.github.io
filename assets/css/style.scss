@@ -44,6 +44,7 @@ a.navbar-item.is-active {
     background: -webkit-linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.75) 100%);
     background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.75) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#000000", GradientType=1);
+    position: relative;
 
     &::before {
         filter: blur(0.15rem);
@@ -61,15 +62,99 @@ a.navbar-item.is-active {
         content: "";
     }
 }
+
+.hero-books {
+    background: rgb(0, 0, 0);
+    background: -moz-linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.75) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.75) 100%);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.75) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#000000", GradientType=1);
+    position: relative;
+
+    &::before {
+        filter: blur(0.15rem);
+        background-image: url({{site.heroimage}});
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        position: absolute;
+        opacity: 0.25;
+        content: "";
+    }
+}
+
 .title {
     margin: auto 0.75rem!important;
     font-family: 'Josefin sans', 'Montserrat';
 }
 
-.subtitle {
-    letter-spacing: 0.25rem;
-    font-family: 'Montserrat', 'Josefin Sans';
+.header-showcase {
+    letter-spacing: 0.15rem;
+    font-family: 'Gill Sans';
+    font-weight: 550;
+    // color: #0079bc;
+    color: white;
+    font-size: 30px;
+    text-align: left;
 }
+
+.subheader-showcase {
+    letter-spacing: 0.15rem;
+    font-family: 'Gill Sans';
+    font-weight: 550;
+    color: #0079bc;
+    // color: white;
+    font-size: 30px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.text-showcase {
+    font-family: 'Palatino';
+    // color: #0079bc;
+    color: white;
+    text-align: left;
+    font-size: 22px;
+    display: flex;
+    align-items: flex-start; /* Align text to the top */
+}
+
+.box-container {
+    position: relative;  /* Make sure it's positioned above the background */
+    z-index: 10;         /* Bring it above the blurred background */
+    max-width: 1000px;         /* Restrict the width to make it look neat */
+    margin: 50px auto;        /* Center horizontally and give top/bottom spacing */
+    padding: 20px;            /* Add some padding inside the box */
+    // background-color: rgba(0, 0, 0, 0); /* Transparent gray background */
+    border-radius: 10px;      /* Rounded corners */
+    // box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+
+.columns {
+    display: flex;            /* Flexbox layout for horizontal alignment */
+    align-items: flex-start;  /* Align columns at the top */
+  }
+  
+.content-wrapper {
+    display: flex;             /* Use flexbox for internal layout */
+    flex-direction: column;    /* Stack text and button vertically */
+    align-items: flex-start;   /* Align content (text and button) to the left */
+  }
+
+.align-top {
+    display: block; /* Make the image a block element */
+    vertical-align: top; /* Align the image at the top */
+  }
+
+.book-image {
+    opacity: 1;              /* Ensure full opacity */
+    background-color: none;  /* No background interference */
+  }
 
 #berlin_seeds {
     .column {
@@ -124,6 +209,24 @@ a.navbar-item.is-active {
     hr {
         background-color: black;
     }
+}
+
+/* Book Grid Styling */
+.book-grid {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+gap: 20px;
+}
+
+.book-card {
+position: relative;
+overflow: hidden;
+}
+
+.book-card img {
+width: 100%;
+height: auto;
+display: block;
 }
 
 #blog {
