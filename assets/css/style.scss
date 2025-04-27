@@ -97,7 +97,6 @@ a.navbar-item.is-active {
     letter-spacing: 0.15rem;
     font-family: 'Gill Sans';
     font-weight: 550;
-    // color: #0079bc;
     color: white;
     font-size: 30px;
     text-align: left;
@@ -107,8 +106,7 @@ a.navbar-item.is-active {
     letter-spacing: 0.15rem;
     font-family: 'Gill Sans';
     font-weight: 550;
-    color: #0079bc;
-    // color: white;
+    color: #10a57f;
     font-size: 30px;
     text-align: left;
     text-transform: uppercase;
@@ -122,6 +120,7 @@ a.navbar-item.is-active {
     font-size: 22px;
     display: flex;
     align-items: flex-start; /* Align text to the top */
+    padding-bottom: 30px;
 }
 
 .box-container {
